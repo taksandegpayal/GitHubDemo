@@ -23,7 +23,7 @@ public class TestBaseClass {
 		System.setProperty("webdriver.chrome.driver", "E:\\Automation Tools\\chromedriver_win32\\chromedriver.exe");
 		System.out.println("1. Properties of the browser are set");
 		
-		driver = new ChromeDriver();
+		driver= new ChromeDriver();
 		System.out.println("2.Chrome browser is open");
 		
 		driver.manage().window().maximize();

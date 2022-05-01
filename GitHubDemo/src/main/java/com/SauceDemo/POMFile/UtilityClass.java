@@ -19,7 +19,7 @@ public static void TakesScreenShot(WebDriver driver) throws IOException {
 		String newDate = d.format(date);
 		
 		TakesScreenshot t = (TakesScreenshot)driver;
-		File sourceFile = t.getScreenshotAs(OutputType.FILE);
+		File sourceFile= t.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("E:\\Screenshot\\Kite" + newDate + ".jpg");
 		FileHandler.copy(sourceFile, destFile);
 		

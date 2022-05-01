@@ -28,7 +28,7 @@ public class TC_01_LoginFunctionality {
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp= new LoginPage(driver);
 		lp.sendUserName();
 		System.out.println("5.Username is entered");
 		
