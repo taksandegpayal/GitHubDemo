@@ -25,7 +25,7 @@ public class TC_03_AddToCartFunctionality extends TestBaseClass {
 		ad.clickAddToCart();
 		
 		String expecetedText = "REMOVE";
-		String actualText = ad.findText();
+		String actualText= ad.findText();
 		Assert.assertEquals(expecetedText, actualText);
 		
 	}
